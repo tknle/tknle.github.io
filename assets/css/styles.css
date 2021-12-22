@@ -420,6 +420,21 @@ img {
     color: var(--first-color-alt);
 }
 
+.button--sendmsg{
+    display: inline-block;
+    background-color: var(--first-color);
+    color: #FFFF;
+    
+    border-radius: .5rem;
+    font-weight: var(--font-medium);
+    border: 3px #FFFF;
+    padding: .75rem 1rem;
+    font-size: var(--h4-font-size);
+
+ 	display: inline-flex;
+    align-items: center;
+    transition: .3s;
+}
 
 /*==================== ABOUT ====================*/
 .about__img {
@@ -536,7 +551,31 @@ img {
 }
 
 .skills__html {
-    width: 100%;
+    width: 80%;
+}
+
+.skills__css {
+    width: 80%;
+}
+
+.skills__cpp {
+    width: 90%;
+}
+
+.skills__cs {
+    width: 90%;
+}
+
+.skills__java {
+    width: 65%;
+}
+
+.skills__python {
+    width: 80%;
+}
+
+.skills__ts {
+    width: 75%;
 }
 
 .skills__close .skills__list {
@@ -959,7 +998,7 @@ img {
 .footer__copy {
     font-size: var(--smaller-font-size);
     text-align: center;
-    color: var(--text-color-light);
+    color: #FFF;
     margin-top: var(--mb-3)
 }
 
