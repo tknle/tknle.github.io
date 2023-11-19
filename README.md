@@ -1,2 +1,2 @@
 # tknle.github.io
-my portfolio
+Go to my portfolio at https://tknle.github.io/
